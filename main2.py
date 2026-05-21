@@ -3,6 +3,7 @@ import webbrowser
 import requests
 import datetime
 import os
+from dotenv import load_dotenv
 import time
 import asyncio
 import tempfile
@@ -26,6 +27,7 @@ from spotipy.oauth2 import SpotifyOAuth
 import pywhatkit
 from ollama import Client as OllamaClient
 from groq import Groq
+load_dotenv()
 
 # ──────────────────────────────────────────────
 # CONFIG  — fill in your keys here
