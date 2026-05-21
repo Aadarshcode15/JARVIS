@@ -1,7 +1,7 @@
 from groq import Groq
 import pyttsx3
 
-client = Groq(api_key="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")
+client = Groq(api_key="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")
 
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')       

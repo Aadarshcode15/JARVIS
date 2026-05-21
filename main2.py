@@ -30,7 +30,7 @@ from groq import Groq
 # ──────────────────────────────────────────────
 # CONFIG  — fill in your keys here
 # ──────────────────────────────────────────────
-GROQ_API_KEY        = os.getenv("GROQ_API_KEY",        "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")
+GROQ_API_KEY        = os.getenv("GROQ_API_KEY",        "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")
 NEWS_API_KEY        = os.getenv("NEWS_API_KEY",        "10178009bb78d9ba7e4b5c50e53db161")
 WEATHER_API_KEY     = os.getenv("WEATHER_API_KEY",     "fbdd8dfa5799482ed1a2eeff7fc06f4f")
 SPOTIFY_CLIENT_ID   = os.getenv("SPOTIFY_CLIENT_ID",   "a2dbe34e9bc04599bb24ee4e18df5472")  # Spotify developer dashboard

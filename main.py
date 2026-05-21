@@ -26,7 +26,7 @@ from groq import Groq
 # ──────────────────────────────────────────────
 # CONFIG
 # ──────────────────────────────────────────────
-GROQ_API_KEY    = os.getenv("GROQ_API_KEY",    "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")
+GROQ_API_KEY    = os.getenv("GROQ_API_KEY",    "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")
 NEWS_API_KEY    = os.getenv("NEWS_API_KEY",    "73430b4e1aa544bda073b9cb1d11e50f")
 WEATHER_API_KEY = os.getenv("WEATHER_API_KEY", "fbdd8dfa5799482ed1a2eeff7fc06f4f")
 
