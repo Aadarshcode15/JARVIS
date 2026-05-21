@@ -30,11 +30,11 @@ from groq import Groq
 # ──────────────────────────────────────────────
 # CONFIG  — fill in your keys here
 # ──────────────────────────────────────────────
-GROQ_API_KEY        = os.getenv("GROQ_API_KEY",        "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")
-NEWS_API_KEY        = os.getenv("NEWS_API_KEY",        "10178009bb78d9ba7e4b5c50e53db161")
-WEATHER_API_KEY     = os.getenv("WEATHER_API_KEY",     "fbdd8dfa5799482ed1a2eeff7fc06f4f")
-SPOTIFY_CLIENT_ID   = os.getenv("SPOTIFY_CLIENT_ID",   "a2dbe34e9bc04599bb24ee4e18df5472")  # Spotify developer dashboard
-SPOTIFY_SECRET      = os.getenv("SPOTIFY_SECRET",      "7976fba120394511bfda909ca2863d6f")
+GROQ_API_KEY        = os.getenv("GROQ_API_KEY")
+NEWS_API_KEY        = os.getenv("NEWS_API_KEY")
+WEATHER_API_KEY     = os.getenv("WEATHER_API_KEY")
+SPOTIFY_CLIENT_ID   = os.getenv("SPOTIFY_CLIENT_ID")  # Spotify developer dashboard
+SPOTIFY_SECRET      = os.getenv("SPOTIFY_SECRET")
 SPOTIFY_REDIRECT    = "https://127.0.0.1:8888/callback"
 
 OLLAMA_MODEL  = "gemma4:e4b"
