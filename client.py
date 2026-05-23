@@ -1,7 +1,10 @@
 from groq import Groq
 import pyttsx3
+import os 
+from dotenv import load_dotenv
+load_dotenv()
 
-client = Groq(api_key="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")
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')       
